@@ -266,14 +266,11 @@
         font-size: 15px;
         text-align: justify;
     }
-    @media only screen and (max-width: 700px) {
-        .about-sub-text{
-            padding-left: 50px;
-            padding-right: 5px;
-            font-size: 15px;
-            text-align: justify;
-        }
-
+    .about-man{
+        width: 280px;
+        padding-top: 40px;
+        margin-left: 50px;
+        height: auto;
     }
     .about-man{
         width: 280px;
@@ -281,6 +278,22 @@
         margin-left: 50px;
         height: auto;
     }
+    @media only screen and (max-width: 700px) {
+        .about-sub-text{
+            padding-left: 50px;
+            padding-right: 5px;
+            font-size: 15px;
+            text-align: justify;
+        }
+        .about-man{
+            width: 250px;
+            padding-top: 40px;
+            margin-left: 50px;
+            height: auto;
+        }
+
+    }
+    
     .award-box{
         margin-top: 50px;
         margin-left: 80px;

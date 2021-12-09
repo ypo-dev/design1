@@ -38,6 +38,9 @@
     transform: scale(1, 0.9);
     
 }
+.main-text-row{
+    margin-top: 20px;
+}
 .design-img{
     height: 580px;
     width: auto;
